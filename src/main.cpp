@@ -1,9 +1,14 @@
 #include <Arduino.h>
 
-void setup() {
-  // put your setup code here, to run once:
+void setup() 
+{
+  Serial.begin(115200);
+  Serial.println("---------- DAC MCP48x1 ----------"); 
+
+
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop() 
+{
+  
 }
